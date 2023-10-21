@@ -124,9 +124,9 @@ int* readGridFromFile(char* filename) {
 }
 
 int main() {
-    int* sudoku_grid_easy = readGridFromFile("../../resources/sudoku_grid_easy.txt"); 
-    int* sudoku_grid_hard = readGridFromFile("../../resources/sudoku_grid_hard.txt");
-    int* sudoku_grid_extrem = readGridFromFile("../../resources/sudoku_grid_extrem.txt");
+    int* sudoku_grid_easy = readGridFromFile("../resources/sudoku_grid_easy.txt"); 
+    int* sudoku_grid_hard = readGridFromFile("../resources/sudoku_grid_hard.txt");
+    int* sudoku_grid_extrem = readGridFromFile("../resources/sudoku_grid_extrem.txt");
 
     printf("Easy Sudoku: \n");
     test_sudoku(sudoku_grid_easy);
